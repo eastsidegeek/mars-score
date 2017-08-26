@@ -1,4 +1,4 @@
-package com.example.marsscore;
+package com.eastsidegeek.marsscore;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -96,11 +96,36 @@ public class calculateScore extends AppCompatActivity {
         editTextAdjacency.setInputType(0);
         editTextCardPoints.setInputType(0);
 
+        intTemp = extras.getInt("TR");
+        stringTemp = Integer.toString(intTemp);
+        editTextTR.setText(stringTemp);
+
+        intTemp = extras.getInt("Greenery");
+        stringTemp = Integer.toString(intTemp);
+        editTextGreenery.setText(stringTemp);
+
+        intTemp = extras.getInt("Milestone");
+        stringTemp = Integer.toString(intTemp);
+        editTextMilestone.setText(stringTemp);
+
+        intTemp = extras.getInt("Award");
+        stringTemp = Integer.toString(intTemp);
+        editTextAward.setText(stringTemp);
+
+        intTemp = extras.getInt("Adjacency");
+        stringTemp = Integer.toString(intTemp);
+        editTextAdjacency.setText(stringTemp);
+
+        intTemp = extras.getInt("CardPoints");
+        stringTemp = Integer.toString(intTemp);
+        editTextCardPoints.setText(stringTemp);
+
         switch(intPlayer) {
             case RED_PLAYER:
-                    textViewPlayer.setText("Red Player");
-                    textViewPlayer.setTextColor(0xFFFF0000);
-                    break;
+                textViewPlayer.setText("Red Player");
+                textViewPlayer.setTextColor(0xFFFF0000);
+
+                break;
             case GREEN_PLAYER:
                 textViewPlayer.setText("Green Player");
                 textViewPlayer.setTextColor(0xFF00FF00);
@@ -115,7 +140,7 @@ public class calculateScore extends AppCompatActivity {
                 break;
             case BLACK_PLAYER:
                 textViewPlayer.setText("Black Player");
-                textViewPlayer.setTextColor(0xFFFFFFFF);
+                textViewPlayer.setTextColor(0xFF000000);
                 break;
         } // end switch
 
@@ -337,21 +362,32 @@ public class calculateScore extends AppCompatActivity {
                 intScore = 0;
                 stringTemp = editTextTR.getText().toString();
                 intTemp = Integer.parseInt(stringTemp);
+                b.putInt("TR",intTemp);
                 intScore += intTemp;
+
                 stringTemp = editTextGreenery.getText().toString();
                 intTemp = Integer.parseInt(stringTemp);
+                b.putInt("Greenery",intTemp);
                 intScore += intTemp;
+
                 stringTemp = editTextMilestone.getText().toString();
                 intTemp = Integer.parseInt(stringTemp);
+                b.putInt("Milestone",intTemp);
                 intScore += intTemp;
+
                 stringTemp = editTextAward.getText().toString();
                 intTemp = Integer.parseInt(stringTemp);
+                b.putInt("Award",intTemp);
                 intScore += intTemp;
+
                 stringTemp = editTextAdjacency.getText().toString();
                 intTemp = Integer.parseInt(stringTemp);
+                b.putInt("Adjacency",intTemp);
                 intScore += intTemp;
+
                 stringTemp = editTextCardPoints.getText().toString();
                 intTemp = Integer.parseInt(stringTemp);
+                b.putInt("CardPoints",intTemp);
                 intScore += intTemp;
 
                 b.putInt("Score",intScore);
