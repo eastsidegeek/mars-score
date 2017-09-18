@@ -17,4 +17,5 @@
     <string name="basetr">Basis Terraform Bewertung</string>
     <string name="card">Karten Punkte</string>
     <string name="calctitle">Ergebnis berechnen</string>
+    <string name="adjacency">Grünflächen angrenzend an eigene Städte</string>
 </resources>

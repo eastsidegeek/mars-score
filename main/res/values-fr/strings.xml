@@ -16,6 +16,6 @@
     <string name="greenery">Tuiles Verdure possédées</string>
     <string name="adjacency">Tuiles Verdure adjacentes aux Villes possédées</string>
     <string name="player">Corporation</string>
-    <string name="score">PV</string>
+    <string name="score">Points de Victoire</string>
     <string name="calctitle">Calculer le Score</string>
 </resources>
