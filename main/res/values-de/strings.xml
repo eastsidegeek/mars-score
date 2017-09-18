@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mars Score</string>
+    <string name="redplayer">Rote Firma</string>
+    <string name="yellowplayer">Gelbe Firma</string>
+    <string name="blueplayer">Blaue Firma</string>
+    <string name="blackplayer">Schwarz Firma</string>
+    <string name="score">Ergebnis</string>
+    <string name="second">2. - x2</string>
+    <string name="first">1. - x5</string>
+    <string name="award">Bonuspunkte</string>
+    <string name="milestone">Meilenstein Punkte</string>
+    <string name="player">Firma</string>
+    <string name="greenplayer">Grüne Firma</string>
+    <string name="greenery">eigene Grünflächen</string>
+    <string name="calculate">Berechne!</string>
+    <string name="basetr">Basis Terraform Bewertung</string>
+    <string name="card">Karten Punkte</string>
+    <string name="calctitle">Ergebnis berechnen</string>
+</resources>

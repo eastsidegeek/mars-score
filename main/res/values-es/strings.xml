@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mars Score</string>
+    <string name="basetr">Valor de Terraformación</string>
+    <string name="award">Recompensas</string>
+    <string name="milestone">Hitos</string>
+    <string name="player">Corporación</string>
+    <string name="redplayer">Jugador Rojo</string>
+    <string name="yellowplayer">Jugador Amarillo</string>
+    <string name="greenplayer">Jugador Verde</string>
+    <string name="blueplayer">Jugador Azul</string>
+    <string name="blackplayer">Jugador Negro</string>
+    <string name="adjacency">Losetas de Vegetación Adyacentes a las Ciudades de Propriedad</string>
+    <string name="greenery">Losetas de Vegetación</string>
+    <string name="first">1er - x5</string>
+    <string name="second">2do - x2</string>
+    <string name="calctitle">Calcular la Puntuación</string>
+    <string name="calculate">Calcular</string>
+    <string name="card">Puntuación des Cartas</string>
+    <string name="score">Puntuación</string>
+</resources>

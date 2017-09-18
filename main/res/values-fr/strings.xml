@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mars Score</string>
+    <string name="basetr">Niveau de Terraformation (NT)</string>
+    <string name="blackplayer">Jouer Noir</string>
+    <string name="blueplayer">Jouer Bleu</string>
+    <string name="greenplayer">Jouer Vert</string>
+    <string name="redplayer">Jouer Rouge</string>
+    <string name="yellowplayer">Jouer Jaune</string>
+    <string name="first">1er - x5</string>
+    <string name="second">2ème - x2</string>
+    <string name="calculate">Calculer!</string>
+    <string name="award">Bonus de Récompenses</string>
+    <string name="milestone">Bonus d\'Objetifs</string>
+    <string name="card">Points des cartes</string>
+    <string name="greenery">Tuiles Verdure possédées</string>
+    <string name="adjacency">Tuiles Verdure adjacentes aux Villes possédées</string>
+    <string name="player">Corporation</string>
+    <string name="score">PV</string>
+    <string name="calctitle">Calculer le Score</string>
+</resources>
