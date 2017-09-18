@@ -4,15 +4,6 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textViewTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:text="@string/calctitle"
-        android:textSize="24sp" />
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -105,8 +96,8 @@
         android:layout_height="wrap_content"
         android:minWidth="44dip"
         android:text="-"
-        android:layout_above="@+id/textView5"
-        android:layout_alignEnd="@+id/buttonCalculate" />
+        android:layout_alignBottom="@+id/editTextAward"
+        android:layout_toEndOf="@+id/textView" />
 
     <Button
         android:id="@+id/buttonAwardDec2"
@@ -114,8 +105,8 @@
         android:layout_height="wrap_content"
         android:minWidth="44dip"
         android:text="-"
-        android:layout_alignBaseline="@+id/buttonAwardInc"
-        android:layout_alignBottom="@+id/buttonAwardInc"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
         android:layout_toEndOf="@+id/textView10" />
 
     <Button
@@ -235,9 +226,9 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:text="@string/greenery"
         android:layout_below="@+id/editTextAward"
-        android:text="@string/greenery" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView7"
@@ -268,19 +259,19 @@
         android:id="@+id/textViewPlayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textViewTitle"
         android:text="Player"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/first"
         android:layout_alignBaseline="@+id/editTextAward"
         android:layout_alignBottom="@+id/editTextAward"
-        android:layout_toEndOf="@+id/editTextAward"
-        android:text="@string/first" />
+        android:layout_toEndOf="@+id/editTextAward" />
 
     <Space
         android:layout_width="wrap_content"
@@ -293,7 +284,8 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/space"
-        android:layout_toEndOf="@+id/buttonAwardInc"
-        android:text="@string/second" />
+        android:text="@string/second"
+        android:layout_alignBaseline="@+id/buttonAwardInc"
+        android:layout_alignBottom="@+id/buttonAwardInc"
+        android:layout_toEndOf="@+id/buttonAwardInc" />
 </RelativeLayout>
