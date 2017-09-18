@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Mars Score</string>
-
+    <string name="redplayer">Red Corp</string>
+    <string name="blueplayer">Blue Corp</string>
+    <string name="greenplayer">Green Corp</string>
+    <string name="yellowplayer">Yellow Corp</string>
+    <string name="blackplayer">Black Corp</string>
+    <string name="player">Corporation</string>
+    <string name="score">Score</string>
+    <string name="basetr">Base Terraform Rating</string>
+    <string name="milestone">Milestone Points</string>
+    <string name="award">Award Points</string>
+    <string name="greenery">Owned Greenery Tiles</string>
+    <string name="adjacency">Greenery Tiles Adjacent to Owned Cities</string>
+    <string name="card">Card Points</string>
+    <string name="calculate">Calculate!</string>
+    <string name="calctitle">Calculate Score</string>
+    <string name="first">1st - x5</string>
+    <string name="second">2nd - x2</string>
 </resources>

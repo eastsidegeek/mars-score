@@ -12,7 +12,7 @@
         android:layout_height="44dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView6"
-        android:text="Red Player"
+        android:text="@string/redplayer"
         android:textColor="@android:color/holo_red_dark" />
 
     <Button
@@ -21,7 +21,7 @@
         android:layout_height="44dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/buttonRed"
-        android:text="Blue Player"
+        android:text="@string/blueplayer"
         android:textColor="#0000FF" />
 
     <Button
@@ -30,7 +30,7 @@
         android:layout_height="44dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/buttonBlue"
-        android:text="Green Player"
+        android:text="@string/greenplayer"
         android:textColor="#00DD00" />
 
     <Button
@@ -39,7 +39,7 @@
         android:layout_height="44dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/buttonGreen"
-        android:text="Yellow Player"
+        android:text="@string/yellowplayer"
         android:textColor="#FFFF00" />
 
     <Button
@@ -48,7 +48,7 @@
         android:layout_height="44dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/buttonYellow"
-        android:text="Black Player" />
+        android:text="@string/blackplayer" />
 
     <EditText
         android:id="@+id/editTextRedScore"
@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="Player"
+        android:text="@string/player"
         android:textSize="24sp" />
 
     <TextView
@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/editTextRedScore"
         android:layout_toEndOf="@+id/buttonRed"
-        android:text="Score"
+        android:text="@string/score"
         android:textSize="24sp" />
 
     <EditText
