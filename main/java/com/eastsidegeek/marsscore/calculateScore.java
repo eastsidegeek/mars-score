@@ -122,24 +122,24 @@ public class calculateScore extends AppCompatActivity {
 
         switch(intPlayer) {
             case RED_PLAYER:
-                textViewPlayer.setText("Red Player");
+                textViewPlayer.setText(R.string.redplayer);
                 textViewPlayer.setTextColor(0xFFFF0000);
 
                 break;
             case GREEN_PLAYER:
-                textViewPlayer.setText("Green Player");
+                textViewPlayer.setText(R.string.greenplayer);
                 textViewPlayer.setTextColor(0xFF00FF00);
                 break;
             case BLUE_PLAYER:
-                textViewPlayer.setText("Blue Player");
+                textViewPlayer.setText(R.string.blueplayer);
                 textViewPlayer.setTextColor(0xFF0000FF);
                 break;
             case YELLOW_PLAYER:
-                textViewPlayer.setText("Yellow Player");
+                textViewPlayer.setText(R.string.yellowplayer);
                 textViewPlayer.setTextColor(0xFFDDDD00);
                 break;
             case BLACK_PLAYER:
-                textViewPlayer.setText("Black Player");
+                textViewPlayer.setText(R.string.blackplayer);
                 textViewPlayer.setTextColor(0xFF000000);
                 break;
         } // end switch

@@ -7,18 +7,18 @@
         android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculate Score"
-        android:textSize="24sp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:text="@string/calctitle"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Base Terraform Rating"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/textViewPlayer"
-        android:layout_alignParentStart="true" />
+        android:text="@string/basetr" />
 
     <EditText
         android:id="@+id/editTextTR"
@@ -221,7 +221,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/editTextTR"
-        android:text="Milestone Points" />
+        android:text="@string/milestone" />
 
     <TextView
         android:id="@+id/textView4"
@@ -229,7 +229,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/editTextMilestone"
-        android:text="Award Points" />
+        android:text="@string/award" />
 
     <TextView
         android:id="@+id/textView5"
@@ -237,7 +237,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/editTextAward"
-        android:text="Owned Greenery Tiles" />
+        android:text="@string/greenery" />
 
     <TextView
         android:id="@+id/textView7"
@@ -245,7 +245,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/editTextGreenery"
-        android:text="Greenery Tiles Adjacent to Owned Cities" />
+        android:text="@string/adjacency" />
 
     <TextView
         android:id="@+id/textView8"
@@ -253,7 +253,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/editTextAdjacency"
-        android:text="Card Points" />
+        android:text="@string/card" />
 
     <Button
         android:id="@+id/buttonCalculate"
@@ -261,7 +261,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/editTextCardPoints"
-        android:text="Calculate!"
+        android:text="@string/calculate"
         android:textSize="24sp" />
 
     <TextView
@@ -280,7 +280,7 @@
         android:layout_alignBaseline="@+id/editTextAward"
         android:layout_alignBottom="@+id/editTextAward"
         android:layout_toEndOf="@+id/editTextAward"
-        android:text="1st - x5" />
+        android:text="@string/first" />
 
     <Space
         android:layout_width="wrap_content"
@@ -293,7 +293,7 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2nd - x2"
         android:layout_alignBottom="@+id/space"
-        android:layout_toEndOf="@+id/buttonAwardInc" />
+        android:layout_toEndOf="@+id/buttonAwardInc"
+        android:text="@string/second" />
 </RelativeLayout>
